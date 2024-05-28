@@ -1,16 +1,43 @@
 /* style sheet for frosting */
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1 {
     background-color: pink;
+    width: 800px;
+    margin: auto;
     text-align: center;
-    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 60px;
 }
+img {
+   display: block;
+   margin: auto;
+}
+h3 {
+    font-size: 48px;
+    margin-bottom: 6px;
 
-p {
-    background-color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 40;
 }
 
 li {
     color: darkblue;
+}
+
+a {
+display: flexbox;
+justify-content: center;
+}
+
+a {
+    display: flex;
+    text-align: center;
+}
+button {
+    background-color: pink;
+    font-size: 24px;
 }
